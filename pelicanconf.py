@@ -24,5 +24,6 @@ LINKS =  (('The Tor Project', 'https://torproject.org/'),
 
 DEFAULT_PAGINATION = 10
 
+THEME = 'theme/ooni.nu/'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
