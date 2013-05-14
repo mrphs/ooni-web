@@ -1,6 +1,6 @@
 Title: Tab-Tab, Come in! Bypassing Internet blocking to categorize DPI devices
 Date: 2013-05-14 14:00:00
-Author: Arturo Filastò
+Author: Arturo Filastò and T.
 Summary: Analysis of censorship in Turkmenistan and Uzbekistan
 
 # Motivation
@@ -49,9 +49,9 @@ of the website www.youtube.com
 The Host header was introduced to be able to specify which domain we are
 requesting in the common scenario that a single IP address is serving different
 websites (think here in shared/virtual hosting). The Host header is optional in
-HTTP/1.0 but mandatory in HTTP/1.1. According the standards, the GET request
+HTTP 1.0 but mandatory in HTTP 1.1. According the standards, the GET request
 line and the Host header must end with carriage return character followed by a
-line feed character <CR><LF>.
+line feed character `<CR><LF>`.
 
 Independently of which type of interception technology is used, matching takes
 place by observing the HTTP Host header field. There are some good technical
@@ -133,10 +133,8 @@ blocking certain articles or random pages based on keywords. The transparent
 webproxy can perform more complex filtering but requires the processing of all
 web requests in the infrastructure. 
 
-
-This blocking method is present in Uzbekistan and Turkmenistan??? where we
+This blocking method is present in Uzbekistan and Turkmenistan where we
 could effectively identify proxy headers when requesting blocked websites.
-
 
 ### Active redirection
 
@@ -176,18 +174,18 @@ During our investigation we discovered that it is possible to bypass the
 filtering by tampering the Host header so the matching stage is not
 triggered.
 
-The basic idea is to use the \t (TAB) and \n (linefeed) characters in the
+The basic idea is to use the `\t` (TAB) and `\n` (linefeed) characters in the
 basic HTTP requests headers. We could test and verify that webservers
 sanitize the requests headers and appending a tab character at the end of the
 Host Header will not have an impact in the webserver side but will bypass the
 detection-matching phase of the blocking gear. 
 
-So instead of sending Host: www.youtube.com\n our requests look like Host:
-www.youtube.com\t\n
+So instead of sending `Host: www.youtube.com\n` our requests look like `Host:
+www.youtube.com\t\n`.
 
 We also discovered that the Active Redirection Method could be bypassed by
-pre-pending a linefeed to the GET header. So instead of sending GET /
-HTTP/1.1, our requests look like \nGET / HTTP/1.1.
+pre-pending a linefeed to the GET header. So instead of sending `GET /
+HTTP/1.1`, our requests look like `\nGET / HTTP/1.1`.
 
 # OONI Testing
 
