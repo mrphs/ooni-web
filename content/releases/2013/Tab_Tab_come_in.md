@@ -70,9 +70,11 @@ requesting resources from the server.
 
 Once the matching is positive, blocking can take place if desired. We have
 identified three basic methods used to block a session. Reset, Proxying and
-Active Redirection. 
+Active Redirection.
 
-### Reset In the reset method, two RST packets will be send to both ends of the
+### Reset
+
+In the reset method, two RST packets will be send to both ends of the
 communication. By injecting these two packets between the communicating
 parties, both the Internet user/browser and the blacklisted webserver will be
 instructed to terminate the connection. This blocking method is present in
@@ -168,7 +170,7 @@ client.
 This redirection method is highly scalable and users are aware that blocking
 is talking place.
 
-How we manage to bypass the blocking?
+## How we manage to bypass the blocking?
 
 During our investigation we discovered that it is possible to bypass the
 filtering by tampering the Host header so the matching stage is not
