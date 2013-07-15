@@ -3,10 +3,11 @@ Date: 2013-07-15 14:00:00
 Author: Mr T
 Summary: Zambia, a country under Deep Packet Inspection
 
-I do not have the details of the blocking of Zambianwatchdog.com, but I would celebrate.
+    "I do not have the details of the blocking of Zambianwatchdog.com, but I
+    would celebrate."
+                          Guy Scott 
+                          Zambian Vicepresident, Friday 28th June 2013
 
-Guy Scott 
-Zambian Vicepresident, Friday 28th June 2013
 
 This article summarizes how we discovered that the grass roots online newspaper
 Zambianwatchdog.com was being blocked inside Zambia. This report provides
@@ -241,13 +242,13 @@ based at Lamya and this has given OP (3) access to all the ISP in Zambia."
 
 Further information about the case:
 
-[https://zambianwatchdog.com/corruption-worsens-at-zamtel-emails-phones-being-monitored-at-lamya-house/](https://zambianwatchdog.com/corruption-worsens-at-zamtel-emails-phones-being-monitored-at-lamya-house/)
+[Corruption worsens at zamtel emails phones being-monitored at lamya house](https://zambianwatchdog.com/corruption-worsens-at-zamtel-emails-phones-being-monitored-at-lamya-house/)
 
-[https://zambianwatchdog.com/zicta-suing-of-mobile-companies-aimed-at-mtn-for-refusing-to-block-zwd/](https://zambianwatchdog.com/zicta-suing-of-mobile-companies-aimed-at-mtn-for-refusing-to-block-zwd/)
+[Zicta suing of mobile companies aimed at mtn for refusing to block zwd](https://zambianwatchdog.com/zicta-suing-of-mobile-companies-aimed-at-mtn-for-refusing-to-block-zwd/)
 
-[https://zambianwatchdog.com/sata-orders-op-to-block-zwd-on-mtn-as-well/](https://zambianwatchdog.com/sata-orders-op-to-block-zwd-on-mtn-as-well/)
+[Sata orders op to block zwd on mtn as well](https://zambianwatchdog.com/sata-orders-op-to-block-zwd-on-mtn-as-well/)
 
-[https://zambianwatchdog.com/sata-signs-order-for-op-to-tap-phones-emails/](https://zambianwatchdog.com/sata-signs-order-for-op-to-tap-phones-emails/)
+[Sata signs order for op to tap phones emails](https://zambianwatchdog.com/sata-signs-order-for-op-to-tap-phones-emails/)
 
-[https://zambianwatchdog.com/journalist-zyambo-out-of-jail-police-though-he-had-obituary-of-sata/](https://zambianwatchdog.com/journalist-zyambo-out-of-jail-police-though-he-had-obituary-of-sata/)
+[Journalist zyambo out of jail police though he had obituary of sata](https://zambianwatchdog.com/journalist-zyambo-out-of-jail-police-though-he-had-obituary-of-sata/)
 
