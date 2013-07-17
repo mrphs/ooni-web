@@ -269,10 +269,18 @@ In order to find out if the government is actively making changes, we deployed
 a new mirror server of the site in the domain http://zwd.cums.in. After a few
 hours the domain has also been blocked and the filtering has been extended to
 the whole /24 network. By extending the filtering the Zambian government has
-also blocked hundreds of other organizations of that are hosted in the same
-provider. 
+also blocked hundreds of other organizations that are hosted in the same provider. 
+
+
+
+    41.72.122.69 - - [17/Jul/2013:14:17:16 +0000]  "-" 400 0 "-" "-" "---" "ZM" "-x-" "41.72.122.69" "-"
+    41.72.122.69 - - [17/Jul/2013:14:17:16 +0000]  "-" 400 0 "-" "-" "---" "ZM" "-x-" "41.72.122.69" "-"
+
+This is an example of the logs in the server side. We can see that the attack
+they are conducting leads to 0 bytes being transmitted and an error code 400 is
+generated (Error 400 (Bad Request) takes place when the request to a SSL is
+malformed.).
 
 More information is available here
 [https://zambianwatchdog.com/police-abduct-another-journalists-suspected-of-links-to-zwd-govt-blocks-zwd-futher/](https://zambianwatchdog.com/police-abduct-another-journalists-suspected-of-links-to-zwd-govt-blocks-zwd-futher/)
-
 
