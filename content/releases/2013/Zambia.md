@@ -8,6 +8,8 @@ Summary: Zambia, a country under Deep Packet Inspection
                           Guy Scott 
                           Zambian Vicepresident, Friday 28th June 2013
 
+The following article is a guest blog post by Mr T. an independent researcher
+and provider of hosting to various grass roots organizations.
 
 This article summarizes how we discovered that the grass roots online newspaper
 Zambianwatchdog.com was being blocked inside Zambia. This report provides
