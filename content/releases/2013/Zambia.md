@@ -252,3 +252,27 @@ Further information about the case:
 
 [Journalist zyambo out of jail police though he had obituary of sata](https://zambianwatchdog.com/journalist-zyambo-out-of-jail-police-though-he-had-obituary-of-sata/)
 
+
+# Update (17th July 2013): And SSL got blocked...
+
+On Tuesday 16th of July 2013 (14:43 GMT) just a few hours after this article
+was released, the government has moved forward in their determination of
+blocking the site and started to block the SSL connections.  The Deep Packet
+Inspection gear seems to be monitoring the "Server Hello" message that is part
+of the SSL negotiation. This message contains the string zambianwatchdog.com
+before the SSL negotiation is completed.
+
+
+![SSL Reset](/static/media/zambia/SSL-reset.png)
+
+In order to find out if the government is actively making changes, we deployed
+a new mirror server of the site in the domain http://zwd.cums.in. After a few
+hours the domain has also been blocked and the filtering has been extended to
+the whole /24 network. By extending the filtering the Zambian government has
+also blocked hundreds of other organizations of that are hosted in the same
+provider. 
+
+More information is available here
+[https://zambianwatchdog.com/police-abduct-another-journalists-suspected-of-links-to-zwd-govt-blocks-zwd-futher/](https://zambianwatchdog.com/police-abduct-another-journalists-suspected-of-links-to-zwd-govt-blocks-zwd-futher/)
+
+
