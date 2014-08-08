@@ -118,12 +118,13 @@ body {
       <div class="navbar-inner">
         <div class="container">
           <ul class="nav">
-            <li class="active"><a href="{{ SITEURL }}/index.html"><i class="icon-home"></i> Home</a></li>
-            <li><a href="{{ SITEURL }}/archives.html"><i class="icon-bullhorn"></i> Blog Posts</a></li>
-            <li><a href="https://ooni.torproject.org/reports/"><i class="icon-truck"></i> Full Reports</a></li>
+            <li class="index"><a href="{{ SITEURL }}/index.html"><i class="icon-home"></i> Home</a></li>
+            <li class="archives"><a href="{{ SITEURL }}/archives.html"><i class="icon-bullhorn"></i> Blog Posts</a></li>
+            <li class="reports"><a href="/reports/"><i class="icon-truck"></i> Full Reports</a></li>
+            <li class="users"><a href="/ooni-users/"><i class="icon-user"></i> OONI users</a></li>
             <li><a href="https://ooni.torproject.org/docs/"><i class="icon-book"></i> Documentation</a></li>
             <li><a href="https://gitweb.torproject.org/ooni-probe.git"><i class="icon-code-fork"></i> Code Repository</a></li>
-            <li><a href="https://github.com/thetorproject/ooni-probe#ooniprobe---open-observatory-of-network-interference"><i class="icon-download-alt"></i> Install</a></li>
+            <li><a href="https://github.com/thetorproject/ooni-probe#installation"><i class="icon-download-alt"></i> Install</a></li>
           </ul>
         </div>
       </div>
@@ -135,16 +136,11 @@ body {
   <hr>
 
   <div class="footer">
-    <p>&copy; <a href="https://torproject.org/">The Tor Project</a> - 2012-2013</p>
+    <p>&copy; <a href="https://torproject.org/">The Tor Project</a> - 2012-2014</p>
   </div>
 
 </div> <!-- /container -->
 
-{% include 'piwik.html' %}
-{% include 'disqus_script.html' %}
-
-<!-- Le javascript -->
-<!-- Placed at the end of the document so the pages load faster -->
 <script src="{{ SITEURL }}/theme/js/jquery-1.7.2.min.js"></script>
 <script src="{{ SITEURL }}/theme/js/bootstrap.min.js"></script>
 </body>

@@ -18,8 +18,8 @@ going on in Bethlehem, West Bank.
 
 **downloads:**
 
-* [Full scan result](/static/media/releases/2012/Hadara_Palestine/hadara_palestine.yamlooni.tar.gz)
-* [List of censored sites](/static/media/releases/2012/Hadara_Palestine/censored-sites.txt)
+* [Full scan result](/media/releases/2012/Hadara_Palestine/hadara_palestine.yamlooni.tar.gz)
+* [List of censored sites](/media/releases/2012/Hadara_Palestine/censored-sites.txt)
 
 This is the technical report on the politically motivated censorship going on
 in Bethlehem, West Bank.
@@ -170,7 +170,7 @@ software being used is Squid.
 
 We scanned more than 1 million hostnames and only detected censorship on 8 of
 these.
-The full scan results are available in an unredacted from [here](/static/media/releases/2012/Hadara_Palestine/hadara_palestine.yamlooni.tar.gz)
+The full scan results are available in an unredacted from [here](/media/releases/2012/Hadara_Palestine/hadara_palestine.yamlooni.tar.gz)
 
 At a certain point we decided to go for a high level of parallelism and not
 care about timeout errors. This is because the transparent HTTP proxy is
@@ -204,42 +204,39 @@ The sites whose access is being restricted access to are:
 * milad.ps
 
 
-![http://pal-home.net](/static/media/releases/2012/Hadara_Palestine/screenshot/palhome.png)
+![http://pal-home.net](/media/releases/2012/Hadara_Palestine/screenshot/palhome.png)
 
 [http://pal-home.net](http://pal-home.net)
 
 
-![http://milad.ps](/static/media/releases/2012/Hadara_Palestine/screenshot/milad.png)
+![http://milad.ps](/media/releases/2012/Hadara_Palestine/screenshot/milad.png)
 
 [http://milad.ps](http://milad.ps)
 
 
-![http://karamapress.com](/static/media/releases/2012/Hadara_Palestine/screenshot/karamapress.png)
+![http://karamapress.com](/media/releases/2012/Hadara_Palestine/screenshot/karamapress.png)
 
 [http://karamapress.com](http://karamapress.com)
 
 
-![http://inlightpress.com](/static/media/releases/2012/Hadara_Palestine/screenshot/inlightpress.png)
+![http://inlightpress.com](/media/releases/2012/Hadara_Palestine/screenshot/inlightpress.png)
 
 [http://inlightpress.com](http://inlightpress.com)
 
 
-![http://fpnp.net](/static/media/releases/2012/Hadara_Palestine/screenshot/fpnp.png)
+![http://fpnp.net](/media/releases/2012/Hadara_Palestine/screenshot/fpnp.png)
 
 [http://fpnp.net](http://fpnp.net)
 
 
-![http://fateh-voice.ps](/static/media/releases/2012/Hadara_Palestine/screenshot/fateh-voice.png)
+![http://fateh-voice.ps](/media/releases/2012/Hadara_Palestine/screenshot/fateh-voice.png)
 
 [http://fateh-voice.ps](http://fateh-voice.ps)
 
 
-![http://amad.ps](/static/media/releases/2012/Hadara_Palestine/screenshot/amad.png)
+![http://amad.ps](/media/releases/2012/Hadara_Palestine/screenshot/amad.png)
 
 [http://amad.ps](http://amad.ps)
 
 For more details on the political implications check see the [article by George
 Hale on Ma'An News](http://www.maannews.net/eng/ViewDetails.aspx?ID=478726)
-
-
-
