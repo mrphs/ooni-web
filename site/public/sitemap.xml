@@ -17,4 +17,28 @@
     <lastmod>2013-07-15T14:00:00+02:00</lastmod>
   </url>
   
+  <url>
+    <loc>http://localhost:1313/pages/reports/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/releases/2012/Hadara_Palestine/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/pages/ooni-users/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/releases/2013/Tab_Tab_come_in/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/releases/2013/Zambia/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/releases/2012/T-Mobile_USA_WebGuard/</loc>
+  </url>
+  
 </urlset>

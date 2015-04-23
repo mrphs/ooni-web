@@ -22,27 +22,17 @@
 
   <main>
     <div class="container">
-      <div class="row title">
-        <div class="col-2 pad-1">
-          <h1>{{ .Title }}</h1>
-          <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
-        </div>
-      </div>
-
+      <div class="row">
+        <h1>{{ .Title }}</h1>
+        <h2>{{ .Date.Format "Mon, Jan 2, 2006" }}</h2>
+      </div> 
 
       <div class="row">
-        <div class="col-1 toc">
-          <img class="cover" src="/images/tests/http-invalid-request-line.svg" width="200" height="324"/>
-          <h2><span class="closure"></span><a href="">XXX</a></h2>
-          <h3><span class="closure"></span><a href="">XXX</a></h3>
-          <div class="indent">
-            <h4><a href="">XXX</a></h4>
-          </div>
-        </div>
-        <div class="col-2">
+        <div class="post-content">
           {{ .Content }}
         </div>
       </div>
+
     </div>
   </main>
 
