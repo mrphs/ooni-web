@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% block content_title %}{% endblock %}
+{% block content %}
+<!-- Jumbotron -->
+<div class="jumbotron">
+  <div class="ooniLogo">
+    <img src="/theme/img/ooni-logo.png">
+  </div>
+
+  <p class="lead">Are you ready to join us in the fight against censorship?</p>
+  <a class="btn btn-large btn-success" href="https://github.com/thetorproject/ooni-probe#getting-started-with-ooniprobe-is-easy-with-vagrant">Join us now!</a>
+</div>
+
+<hr>
+
+<!-- Example row of columns -->
+<div class="row-fluid">
+  <div class="span4">
+    <h2>Open Methodologies</h2>
+    <p>
+    By having openly known and peer reviewed methodologies, we able to produce
+    data that is of scientific value. We believe in the importance of
+    reproducible research, meaning that any researcher should be able to obtain
+    the same results independently. This can only be achieved by detailing the
+    methods we use in our experiments in plain English as well as in code. We
+    plan to set the standards for best practices in developing network
+    surveillance and filtering detection tests.  Focusing on the creation and
+    utilization of tests based on open methods will allow us to build a
+    taxonomy of surveillance and censorship. This will expand the ability of
+    the larger community to independently implement tests, perform experiments,
+    and reference specifics.
+    </p>
+    <p><a class="btn" href="https://github.com/thetorproject/ooni-spec">Read the methodology &raquo;</a></p>
+  </div>
+  <div class="span4">
+    <h2>Free Software</h2>
+    <p>
+    Making the tool available as Free Libre Open Source Software allows
+    researchers to fully grasp the inner workings of the software, and it allows
+    the building of a strong skillful community around OONI. People interested
+    in expanding it will be able to do so freely, which will help sustain it as a
+    basis for future work. A FL/OSS tool has the most likely chance of being
+    studied and improved by the research community.
+    </p>
+    <p><a class="btn" href="https://gitweb.torproject.org/ooni-probe.git">View the source &raquo;</a></p>
+  </div>
+  <div class="span4">
+    <h2>Open Data</h2>
+    <p>
+     It is very important that all of the data collected by OONI is released to
+     the public under an Open license such as the Creative Commons by Attribution
+     license. This allows anybody to freely use and republish this information as
+     they wish without restriction. The publishing of scientific data is in line
+     with the Open Science data movement – the rate of discovery and scientific
+     progress is accelerated by better access to data. While other projects have
+     attempted to share data, we assert that high level summaries are simply not
+     enough. We wish to ensure that open access to data submitted is available to
+     all and that techniques for analysis will be equally available. This will
+     allow for factual assertions based on the data collected rather than on
+     organizational reputation alone. While we think that this model may have
+     risks, no project has resolved such risks by refusing to publish their
+     datasets. At best, hiding data may stop casual attackers, and, at worst, it
+     creates a very valuable target for attack. 
+    </p>
+    <p><a class="btn" href="https://ooni.torproject.org/reports/">See the reports &raquo;</a></p>
+  </div>
+</div>
+
+<div class="row-fluid">
+  <div class="span4">
+    <h2>Friends</h2>
+    <p>
+    Some organizations have contributed to the project either by providing
+    infrastructure (VPS hosting, running collectors, etc) or simply by helping
+    us out in development.
+    Here is a very small list of these groups.
+    </p>
+    <a href="https://greenhost.net/"><img src="/theme/img/greenhost-logo.jpg"/><a>
+    <a href="https://www.openrightsgroup.org/"><img src="/theme/img/openrightsgroup-logo.png"/><a>
+    <a href="https://www.bytemark.co.uk/"><img src="/theme/img/bytemark-logo.png"/><a>
+  </div>
+  </div>
+</div>
+
+{% endblock content %}
