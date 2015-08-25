@@ -385,13 +385,18 @@ nav.event-navbar {
 
 .error-box {
   width: 300px;
-  height: 100px;
+  height: 200px;
   color: #4d86c6;
   background-color: #f2f2f2;
   margin: 0 auto;
   border-radius: 4px;
   z-index: 2001;
   padding-top: 0.9em;
+}
+
+.error-box a {
+  color: #C64D4D;
+  text-decoration: underline;
 }
 
 .error-message {
