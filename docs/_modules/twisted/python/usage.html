@@ -5,6 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <title>twisted.python.usage &mdash; OONI: Open Observatory of Network Interference 1.3.1 documentation</title>
@@ -14,7 +15,6 @@
   
 
   
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
   
   
@@ -34,7 +34,7 @@
         <link rel="up" title="Module code" href="../../index.html"/> 
 
   
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+  <script src="../../../_static/js/modernizr.min.js"></script>
 
 </head>
 
@@ -44,11 +44,27 @@
 
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
-      <div class="wy-side-nav-search">
-        
-          <a href="../../../index.html" class="fa fa-home"> OONI: Open Observatory of Network Interference</a>
-        
-        
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> OONI: Open Observatory of Network Interference
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.3.1
+              </div>
+            
+          
+
+          
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -56,77 +72,30 @@
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
-      </div>
 
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-        
           
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
-              <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../tutorial.html">Tutorial</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../../tutorial.html#writing-a-tcp-port-scanner">Writing a TCP port scanner</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../tutorial.html#creating-test">Creating test</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../tutorial.html#setup">Setup</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../tutorial.html#inputs">Inputs</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../tutorial.html#writing-tests">Writing Tests</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../tutorial.html#runninng-tests">Runninng Tests</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../tutorial.html#reports">Reports</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../../../writing_tests.html">Writing OONI tests</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../../writing_tests.html#test-cases">Test Cases</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../writing_tests.html#inputs">Inputs</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../writing_tests.html#setup-and-command-line-passing">Setup and command line passing</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../writing_tests.html#test-methods">Test Methods</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../writing_tests.html#test-templates">Test Templates</a></li>
-</ul>
-</li>
+            
+            
+                <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../tutorial.html">Tutorial</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../writing_tests.html">Writing OONI tests</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../reports.html">Reports</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../reports.html#report-format-version-changelog">Report format version changelog</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../../reports.html#version-0-1">version 0.1</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../../../nettests/modules.html">Implemented NetTests</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../../nettests/ooni.nettests.blocking.html">ooni.nettests blocking Package</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../nettests/ooni.nettests.examples.html">ooni.nettests examples Package</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../nettests/ooni.nettests.experimental.html">ooni.nettests experimental Package</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../nettests/ooni.nettests.manipulation.html">ooni.nettests manipulation Package</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../nettests/ooni.nettests.scanning.html">ooni.nettests scanning Package</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../nettests/ooni.nettests.third_party.html">ooni.nettests third_party Package</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../../../api/ooni.html">Measurement Developer API</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../../api/ooni.html#module-ooni.nettest"><code class="docutils literal"><span class="pre">nettest</span></code> Module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../api/ooni.html#module-ooni.settings"><code class="docutils literal"><span class="pre">settings</span></code> Module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../api/ooni.html#module-ooni.oonicli"><code class="docutils literal"><span class="pre">oonicli</span></code> Module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../api/ooni.html#module-ooni.reporter"><code class="docutils literal"><span class="pre">reporter</span></code> Module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../api/ooni.html#subpackages">Subpackages</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../../../api/ooni.templates.html">Test Templates</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../../api/ooni.templates.html#module-ooni.templates.httpt"><code class="docutils literal"><span class="pre">ooni.templates.httpt</span></code> Module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../api/ooni.templates.html#module-ooni.templates.scapyt"><code class="docutils literal"><span class="pre">ooni.templates.scapyt</span></code> Module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../api/ooni.templates.html#module-ooni.templates.dnst"><code class="docutils literal"><span class="pre">ooni.templates.dnst</span></code> Module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../api/ooni.templates.html#module-ooni.templates.tcpt"><code class="docutils literal"><span class="pre">ooni.templates.tcpt</span></code> Module</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../../../architecture.html">Architecture</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../../architecture.html#ooniprobe">ooniprobe</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../architecture.html#oonib">oonib</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../architecture.html#an-ooniprobe-run">An ooniprobe run</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../architecture.html#ooniprobe-api">ooniprobe API</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../architecture.html#towards-a-rpc-like-interface">Towards a RPC like interface</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../architecture.html#draft-api-specification">Draft API specification</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../architecture.html#implementation-status">Implementation status</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../reports.html#report-format-version-changelog">Report format version changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../nettests/modules.html">Implemented NetTests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../api/ooni.html">Measurement Developer API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../api/ooni.templates.html">Test Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../architecture.html">Architecture</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../glossary.html">Glossary</a></li>
 </ul>
 
+            
           
-        
+        </div>
       </div>
-      &nbsp;
     </nav>
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
@@ -141,7 +110,13 @@
       
       <div class="wy-nav-content">
         <div class="rst-content">
-          <div role="navigation" aria-label="breadcrumbs navigation">
+          
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../../../index.html">Docs</a> &raquo;</li>
       
@@ -150,11 +125,14 @@
     <li>twisted.python.usage</li>
       <li class="wy-breadcrumbs-aside">
         
+          
+        
       </li>
   </ul>
   <hr/>
 </div>
-          <div role="main" class="document">
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
             
   <h1>Source code for twisted.python.usage</h1><div class="highlight"><pre>
 <span class="c"># -*- test-case-name: twisted.test.test_usage -*-</span>
@@ -171,19 +149,14 @@
 <span class="sd">or doc/core/howto/options.xhtml in your Twisted directory.</span>
 <span class="sd">&quot;&quot;&quot;</span>
 
-<span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">print_function</span>
-<span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">division</span><span class="p">,</span> <span class="n">absolute_import</span>
-
 <span class="c"># System Imports</span>
-<span class="kn">import</span> <span class="nn">inspect</span>
 <span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">import</span> <span class="nn">sys</span>
 <span class="kn">import</span> <span class="nn">getopt</span>
 <span class="kn">from</span> <span class="nn">os</span> <span class="kn">import</span> <span class="n">path</span>
-<span class="kn">import</span> <span class="nn">textwrap</span>
 
 <span class="c"># Sibling Imports</span>
-<span class="kn">from</span> <span class="nn">twisted.python</span> <span class="kn">import</span> <span class="n">reflect</span><span class="p">,</span> <span class="n">util</span>
+<span class="kn">from</span> <span class="nn">twisted.python</span> <span class="kn">import</span> <span class="n">reflect</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">util</span>
 
 
 <span class="k">class</span> <span class="nc">UsageError</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span>
@@ -216,7 +189,7 @@
                              <span class="o">%</span> <span class="p">(</span><span class="n">parameterName</span><span class="p">,))</span>
         <span class="k">try</span><span class="p">:</span>
             <span class="n">value</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">coerce</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
-        <span class="k">except</span> <span class="ne">ValueError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+        <span class="k">except</span> <span class="ne">ValueError</span><span class="p">,</span> <span class="n">e</span><span class="p">:</span>
             <span class="k">raise</span> <span class="n">UsageError</span><span class="p">(</span><span class="s">&quot;Parameter type enforcement failed: </span><span class="si">%s</span><span class="s">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">e</span><span class="p">,))</span>
 
         <span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">opts</span><span class="p">[</span><span class="n">parameterName</span><span class="p">]</span> <span class="o">=</span> <span class="n">value</span>
@@ -235,8 +208,8 @@
 <span class="sd">    optFlags is assigned a list of lists. Each list represents</span>
 <span class="sd">    a flag parameter, as so::</span>
 
-<span class="sd">       optFlags = [[&#39;verbose&#39;, &#39;v&#39;, &#39;Makes it tell you what it doing.&#39;],</span>
-<span class="sd">                   [&#39;quiet&#39;, &#39;q&#39;, &#39;Be vewy vewy quiet.&#39;]]</span>
+<span class="sd">    |    optFlags = [[&#39;verbose&#39;, &#39;v&#39;, &#39;Makes it tell you what it doing.&#39;],</span>
+<span class="sd">    |                [&#39;quiet&#39;, &#39;q&#39;, &#39;Be vewy vewy quiet.&#39;]]</span>
 
 <span class="sd">    As you can see, the first item is the long option name</span>
 <span class="sd">    (prefixed with &#39;--&#39; on the command line), followed by the</span>
@@ -247,7 +220,7 @@
 <span class="sd">    C{optParameters} is much the same, except the list also contains</span>
 <span class="sd">    a default value::</span>
 
-<span class="sd">       optParameters = [[&#39;outfile&#39;, &#39;O&#39;, &#39;outfile.log&#39;, &#39;Description...&#39;]]</span>
+<span class="sd">    | optParameters = [[&#39;outfile&#39;, &#39;O&#39;, &#39;outfile.log&#39;, &#39;Description...&#39;]]</span>
 
 <span class="sd">    A coerce function can also be specified as the last element: it will be</span>
 <span class="sd">    called with the argument and should return the value that will be stored</span>
@@ -260,12 +233,12 @@
 <span class="sd">    instantiated and given the remainder of the arguments to parse and</span>
 <span class="sd">    self.opts[command] is set to the command name.  For example::</span>
 
-<span class="sd">       subCommands = [</span>
-<span class="sd">            [&#39;inquisition&#39;, &#39;inquest&#39;, InquisitionOptions,</span>
-<span class="sd">                 &#39;Perform an inquisition&#39;],</span>
-<span class="sd">            [&#39;holyquest&#39;, &#39;quest&#39;, HolyQuestOptions,</span>
-<span class="sd">                 &#39;Embark upon a holy quest&#39;]</span>
-<span class="sd">        ]</span>
+<span class="sd">    | subCommands = [</span>
+<span class="sd">    |      [&#39;inquisition&#39;, &#39;inquest&#39;, InquisitionOptions,</span>
+<span class="sd">    |           &#39;Perform an inquisition&#39;],</span>
+<span class="sd">    |      [&#39;holyquest&#39;, &#39;quest&#39;, HolyQuestOptions,</span>
+<span class="sd">    |           &#39;Embark upon a holy quest&#39;]</span>
+<span class="sd">    |  ]</span>
 
 <span class="sd">    In this case, C{&quot;&lt;program&gt; holyquest --horseback --for-grail&quot;} will cause</span>
 <span class="sd">    C{HolyQuestOptions} to be instantiated and asked to parse</span>
@@ -275,9 +248,9 @@
 <span class="sd">    subOptions attribute is set to the Option instance that parses the</span>
 <span class="sd">    remaining options. If a subcommand is not given to parseOptions,</span>
 <span class="sd">    the subCommand attribute will be None. You can also mark one of</span>
-<span class="sd">    the subCommands to be the default::</span>
+<span class="sd">    the subCommands to be the default.</span>
 
-<span class="sd">       defaultSubCommand = &#39;holyquest&#39;</span>
+<span class="sd">    | defaultSubCommand = &#39;holyquest&#39;</span>
 
 <span class="sd">    In this case, the subCommand attribute will never be None, and</span>
 <span class="sd">    the subOptions attribute will always be set.</span>
@@ -346,15 +319,19 @@
             <span class="bp">self</span><span class="o">.</span><span class="n">synonyms</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">synonyms</span><span class="p">)</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">_dispatch</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">dispatch</span><span class="p">)</span>
 
-
-    <span class="n">__hash__</span> <span class="o">=</span> <span class="nb">object</span><span class="o">.</span><span class="n">__hash__</span>
-
+    <span class="k">def</span> <span class="nf">__hash__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Define a custom hash function so that Options instances can be used</span>
+<span class="sd">        as dictionary keys.  This is an internal feature used to implement</span>
+<span class="sd">        the parser.  Do not rely on it in application code.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="nb">int</span><span class="p">(</span><span class="nb">id</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">%</span> <span class="n">sys</span><span class="o">.</span><span class="n">maxint</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="nf">opt_help</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Display this help and exit.</span>
 <span class="sd">        &quot;&quot;&quot;</span>
-        <span class="k">print</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__str__</span><span class="p">())</span>
+        <span class="k">print</span> <span class="bp">self</span><span class="o">.</span><span class="n">__str__</span><span class="p">()</span>
         <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="nf">opt_version</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -362,7 +339,7 @@
 <span class="sd">        Display Twisted version and exit.</span>
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="kn">from</span> <span class="nn">twisted</span> <span class="kn">import</span> <span class="n">copyright</span>
-        <span class="k">print</span><span class="p">(</span><span class="s">&quot;Twisted version:&quot;</span><span class="p">,</span> <span class="n">copyright</span><span class="o">.</span><span class="n">version</span><span class="p">)</span>
+        <span class="k">print</span> <span class="s">&quot;Twisted version:&quot;</span><span class="p">,</span> <span class="n">copyright</span><span class="o">.</span><span class="n">version</span>
         <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
 
     <span class="c">#opt_h = opt_help # this conflicted with existing &#39;host&#39; options.</span>
@@ -392,7 +369,7 @@
         <span class="k">try</span><span class="p">:</span>
             <span class="n">opts</span><span class="p">,</span> <span class="n">args</span> <span class="o">=</span> <span class="n">getopt</span><span class="o">.</span><span class="n">getopt</span><span class="p">(</span><span class="n">options</span><span class="p">,</span>
                                        <span class="bp">self</span><span class="o">.</span><span class="n">shortOpt</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">longOpt</span><span class="p">)</span>
-        <span class="k">except</span> <span class="n">getopt</span><span class="o">.</span><span class="n">error</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+        <span class="k">except</span> <span class="n">getopt</span><span class="o">.</span><span class="n">error</span><span class="p">,</span> <span class="n">e</span><span class="p">:</span>
             <span class="k">raise</span> <span class="n">UsageError</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
 
         <span class="k">for</span> <span class="n">opt</span><span class="p">,</span> <span class="n">arg</span> <span class="ow">in</span> <span class="n">opts</span><span class="p">:</span>
@@ -592,11 +569,15 @@
                 <span class="n">reverse_dct</span><span class="p">[</span><span class="n">method</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
             <span class="n">reverse_dct</span><span class="p">[</span><span class="n">method</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39;_&#39;</span><span class="p">,</span> <span class="s">&#39;-&#39;</span><span class="p">))</span>
 
+        <span class="n">cmpLength</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="nb">cmp</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">a</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">b</span><span class="p">))</span>
+
         <span class="k">for</span> <span class="n">method</span><span class="p">,</span> <span class="n">names</span> <span class="ow">in</span> <span class="n">reverse_dct</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
             <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">names</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
                 <span class="k">continue</span>
-            <span class="n">longest</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">names</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="nb">len</span><span class="p">)</span>
-            <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">names</span><span class="p">:</span>
+            <span class="n">names_</span> <span class="o">=</span> <span class="n">names</span><span class="p">[:]</span>
+            <span class="n">names_</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">cmpLength</span><span class="p">)</span>
+            <span class="n">longest</span> <span class="o">=</span> <span class="n">names_</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+            <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">names_</span><span class="p">:</span>
                 <span class="n">synonyms</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">longest</span>
 
         <span class="k">return</span> <span class="n">longOpt</span><span class="p">,</span> <span class="n">shortOpt</span><span class="p">,</span> <span class="n">docs</span><span class="p">,</span> <span class="n">settings</span><span class="p">,</span> <span class="n">synonyms</span><span class="p">,</span> <span class="n">dispatch</span>
@@ -691,7 +672,7 @@
 
         <span class="k">if</span> <span class="n">longdesc</span><span class="p">:</span>
             <span class="n">longdesc</span> <span class="o">=</span> <span class="p">(</span><span class="s">&#39;</span><span class="se">\n</span><span class="s">&#39;</span> <span class="o">+</span>
-                        <span class="s">&#39;</span><span class="se">\n</span><span class="s">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">textwrap</span><span class="o">.</span><span class="n">wrap</span><span class="p">(</span><span class="n">longdesc</span><span class="p">,</span> <span class="n">width</span><span class="p">))</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+                        <span class="s">&#39;</span><span class="se">\n</span><span class="s">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">text</span><span class="o">.</span><span class="n">wordWrap</span><span class="p">(</span><span class="n">longdesc</span><span class="p">,</span> <span class="n">width</span><span class="p">))</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
                         <span class="o">+</span> <span class="s">&#39;</span><span class="se">\n</span><span class="s">&#39;</span><span class="p">)</span>
 
         <span class="k">if</span> <span class="n">optDicts</span><span class="p">:</span>
@@ -962,7 +943,7 @@
 <span class="sd">        option will have either of the strings &quot;one&quot;, &quot;two&quot;, or &quot;three&quot;</span>
 <span class="sd">        completed when the user presses Tab.</span>
 
-<span class="sd">        &quot;colors&quot; will allow multiple arguments to be completed, separated by</span>
+<span class="sd">        &quot;colors&quot; will allow multiple arguments to be completed, seperated by</span>
 <span class="sd">        commas. The possible arguments are red, green, and blue. Examples::</span>
 
 <span class="sd">            my_command --foo some-file.foo --colors=red,green</span>
@@ -1091,7 +1072,7 @@
                 <span class="n">doc</span> <span class="o">=</span> <span class="s">&quot;</span><span class="si">%s</span><span class="s">. </span><span class="si">%s</span><span class="s">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">doc</span><span class="p">,</span> <span class="n">d</span><span class="o">.</span><span class="n">doc</span><span class="p">)</span>
 
         <span class="k">if</span> <span class="n">doc</span><span class="p">:</span>
-            <span class="n">column2_l</span> <span class="o">=</span> <span class="n">textwrap</span><span class="o">.</span><span class="n">wrap</span><span class="p">(</span><span class="n">doc</span><span class="p">,</span> <span class="n">colWidth2</span><span class="p">)</span>
+            <span class="n">column2_l</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">wordWrap</span><span class="p">(</span><span class="n">doc</span><span class="p">,</span> <span class="n">colWidth2</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="n">column2_l</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;&#39;</span><span class="p">]</span>
 
@@ -1105,36 +1086,15 @@
     <span class="k">return</span> <span class="n">optChunks</span>
 
 
-
 <span class="k">def</span> <span class="nf">flagFunction</span><span class="p">(</span><span class="n">method</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Determine whether a function is an optional handler for a I{flag} or an</span>
-<span class="sd">    I{option}.</span>
-
-<span class="sd">    A I{flag} handler takes no additional arguments.  It is used to handle</span>
-<span class="sd">    command-line arguments like I{--nodaemon}.</span>
-
-<span class="sd">    An I{option} handler takes one argument.  It is used to handle command-line</span>
-<span class="sd">    arguments like I{--path=/foo/bar}.</span>
-
-<span class="sd">    @param method: The bound method object to inspect.</span>
-
-<span class="sd">    @param name: The name of the option for which the function is a handle.</span>
-<span class="sd">    @type name: L{str}</span>
-
-<span class="sd">    @raise UsageError: If the method takes more than one argument.</span>
-
-<span class="sd">    @return: If the method is a flag handler, return C{True}.  Otherwise return</span>
-<span class="sd">        C{False}.</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">reqArgs</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">inspect</span><span class="o">.</span><span class="n">getargspec</span><span class="p">(</span><span class="n">method</span><span class="p">)</span><span class="o">.</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">reqArgs</span> <span class="o">=</span> <span class="n">method</span><span class="o">.</span><span class="n">im_func</span><span class="o">.</span><span class="n">func_code</span><span class="o">.</span><span class="n">co_argcount</span>
     <span class="k">if</span> <span class="n">reqArgs</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">:</span>
         <span class="k">raise</span> <span class="n">UsageError</span><span class="p">(</span><span class="s">&#39;Invalid Option function for </span><span class="si">%s</span><span class="s">&#39;</span> <span class="o">%</span>
-                         <span class="p">(</span><span class="n">name</span> <span class="ow">or</span> <span class="n">method</span><span class="o">.</span><span class="n">__name__</span><span class="p">))</span>
+                         <span class="p">(</span><span class="n">name</span> <span class="ow">or</span> <span class="n">method</span><span class="o">.</span><span class="n">func_name</span><span class="p">))</span>
     <span class="k">if</span> <span class="n">reqArgs</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
-        <span class="k">return</span> <span class="bp">False</span>
-    <span class="k">return</span> <span class="bp">True</span>
-
+        <span class="c"># argName = method.im_func.func_code.co_varnames[1]</span>
+        <span class="k">return</span> <span class="mi">0</span>
+    <span class="k">return</span> <span class="mi">1</span>
 
 
 <span class="k">def</span> <span class="nf">portCoerce</span><span class="p">(</span><span class="n">value</span><span class="p">):</span>
@@ -1148,6 +1108,7 @@
 <span class="n">portCoerce</span><span class="o">.</span><span class="n">coerceDoc</span> <span class="o">=</span> <span class="s">&quot;Must be an int between 0 and 65535.&quot;</span>
 </pre></div>
 
+           </div>
           </div>
           <footer>
   
@@ -1157,12 +1118,13 @@
   <div role="contentinfo">
     <p>
         &copy; Copyright 2015, The Tor Project.
+
     </p>
   </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
-  
 </footer>
+
         </div>
       </div>
 

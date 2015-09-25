@@ -28,6 +28,7 @@
 <a href="https://gitweb.torproject.org/ooni-probe.git">Code</a>
 <a href="https://ooni.torproject.org/reports/">Reports</a>
 <a href="https://github.com/thetorproject/ooni-probe#installation">Install</a>
+<a href="/lepidopter/lepidopter/">Lepidopter</a>
 <a href="/event/adina15/">Events</a>
 
       </div>
@@ -49,11 +50,13 @@
     </div>
 
   </div>
-  
+
   <div class="container">
     <main class="event col-3">
       <div class="event-content">
         
+
+<p><a href="https://github.com/TheTorProject/ooni-web/raw/master/content/event/adina15-it.md">Versione in testo semplice di questa pagina</a></p>
 
 <h1 id="ooni-hackathon:c802604ea1220451aa753efce4e7b0e1">OONI Hackathon</h1>
 
@@ -248,7 +251,7 @@ e amichevole per tutti.</p>
       <div class="error-box">
         <div class="dismiss-box"></div>
         <span class="error-message">{{errorMessage}}</span>
-        <p>If you are experiencing unexplained authentication errors and have third party cookies disabled (ex. in Tor Browser) see <a href="https://trac.torproject.org/projects/tor/attachment/ticket/16893/TorBrowser-enabled-third-party-cookies.png">this ticket for information on how to workaround the issue</a>)</p>
+        <p>If you are experiencing unexplained authentication errors and have third party cookies disabled (ex. in Tor Browser) see <a href="https://trac.torproject.org/projects/tor/attachment/ticket/16893/TorBrowser-enabled-third-party-cookies.png">this ticket for information on how to workaround the issue</a></p>
       </div>
     </div>
 
@@ -272,7 +275,7 @@ e amichevole per tutti.</p>
           created by other participants or by the OONI dev team.</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row available-teams">
         <div class="col-3">
           <div class="loading-team-list" ng-show="!teams">
             <p>Loading...</p>
@@ -292,7 +295,6 @@ e amichevole per tutti.</p>
       <div class="row">
         <h2 class="event-or">OR</h2>
       </div>
-
       <div class="row">
         <div class="col-3">
           <div class="event-cta">
@@ -326,7 +328,7 @@ e amichevole per tutti.</p>
                 <label>Maximum number of members</label>
                 <input type="number" min="3" max="10" ng-model="newTeam.membersMaximum">
               </div>
- 
+
               <div class="field">
                 <button class="btn">Create</button>
               </div>
@@ -336,14 +338,47 @@ e amichevole per tutti.</p>
         </div>
       </div>
 
+      <div class="row">
+        <h2 class="event-or">OR</h2>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div class="event-cta">
+            <span class="event-join-number">#3</span>
+            <span class="event-join-action">Login</span>
+            <span class="event-join-desc">and modify data</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-3">
+          <form ng-submit="loginAgain()">
+            <fieldset>
+              <div class="field">
+                <label>Username</label>
+                <input type="text" ng-model="oonitarian.username">
+              </div>
+              <div class="field">
+                <label>Password</label>
+                <input type="password" ng-model="oonitarian.password">
+              </div>
+              <div class="field">
+                <button class="btn">Login</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+
     </div>
-    
+
     <section class="team-details" ng-show="teamDetails">
       <div class="team-details-container">
         <div class="team-details-dismiss" ng-click="dismissDetails()"></div>
         <h2>{{teamDetails.name}}</h2>
         <p>{{teamDetails.longDescription}}</p>
-        
+
         <h3>Members</h3>
         <ul class="members-list">
           <li class="project-box" ng-repeat="member in teamDetails.members">
@@ -418,11 +453,11 @@ e amichevole per tutti.</p>
 
         <h2>Your registration details</h2>
         <p>Please note that due to the security requirements of the Italian
-        parliament we need to provide your real legal name and you will be
-        asked for ID upon entry.</p>
+        parliament we need to provide your real legal name, birth date, birth
+        city, and you will be asked for ID upon entry.</p>
 
-        <p>The password you enter here will be used when we implement the login
-        feature to allow you to modify your registration information.</p>
+        <p>The password you enter here can be used to modify your
+        registration information.</p>
 
         <p>The email you provide will be visible on this website, so that you
         can be contacted by others in your team.</p>
@@ -445,12 +480,29 @@ e amichevole per tutti.</p>
             </div>
 
             <div class="field">
+              <label>Date of Birth</label>
+              <input type="text" ng-model="oonitarian.birthDate"/>
+            </div>
+
+            <div class="field">
+              <label>City of Birth</label>
+              <input type="text" ng-model="oonitarian.birthCity"/>
+            </div>
+
+            <div class="field">
+              <label>Phone Number</label>
+              <input type="text" ng-model="oonitarian.phoneNumber"/>
+            </div>
+
+
+            <div class="field">
               <label>Password</label>
               <input type="password" ng-model="oonitarian.password">
             </div>
 
             <div class="field">
               <button class="btn">Register</button>
+          
             </div>
           </fieldset>
         </form>
@@ -484,6 +536,22 @@ e amichevole per tutti.</p>
             </div>
 
             <div class="field">
+              <label>Date of Birth</label>
+              <span>{{oonitarian.birthDate}}</span>
+            </div>
+
+            <div class="field">
+              <label>City of Birth</label>
+              <span>{{oonitarian.birthCity}}</span>
+            </div>
+
+            <div class="field">
+              <label>Phone Number</label>
+              <span>{{oonitarian.phoneNumber}}</span>
+            </div>
+
+
+            <div class="field">
               <label>Password</label>
               <span>{{oonitarian.password}}</span>
             </div>
@@ -505,6 +573,73 @@ e amichevole per tutti.</p>
 
           <p>See you soon in Rome!</p>
           <button ng-click="dismissDone()" class="btn">Ok</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="login-done" ng-show="logged">
+      <div class="login-done-wrapper">
+        <div class="login-done-box">
+        <div class="login-done-dismiss" ng-click="dismissDone()"></div>
+          <h2>Logged in as `{{oonitarian.username}}`:</h2>
+
+            <div class="field">
+              <label>Email</label>
+              <input type="text" ng-model="oonitarian.email"/>
+            </div>
+
+
+            <div class="field">
+              <label>Date of Birth</label>
+              <input type="text" ng-model="oonitarian.birthDate"/>
+            </div>
+
+            <div class="field">
+              <label>City of Birth</label>
+              <input type="text" ng-model="oonitarian.birthCity"/>
+            </div>
+
+            <div class="field">
+              <label>Phone Number</label>
+              <input type="text" ng-model="oonitarian.phoneNumber"/>
+            </div>
+
+             <div class="field">
+              <label>Twitter</label>
+              <input type="text" ng-model="oonitarian.twitter"/>
+            </div>
+
+             <div class="field">
+              <label>Portfolio Url</label>
+              <input type="text" ng-model="oonitarian.portfolio_url"/>
+            </div>
+
+            <div class="field">
+              <label>Skills</label>
+              <div ng-repeat="skill in oonitarian.skills track by $index">
+                <input type="text" ng-model="oonitarian.skills[$index]" style="display:inline">
+                <button ng-click="removeSkill($index)" class="btn">X</button>
+              </div>
+              <button ng-click="addSkill()" class="btn">Add</button>
+            </div>
+
+            <div class="field">
+              <label>Team</label>
+              <div ng-repeat="team in teams.teams">
+                <input type="radio" name="groups" ng-model="oonitarian.teamId"
+                 ng-value="team.id"> {{team.name}} </input>
+              </div>
+            </div>
+
+            <div class="field">
+              <label>Change password</label>
+              <form name="changePassword">
+                Set new password <input type="password"
+                    ng-model="oonitarian.password" ng-required/>
+              </form>
+            </div>
+
+          <button ng-click="editInfo()" class="btn">Save Changes</button>
         </div>
       </div>
     </section>
